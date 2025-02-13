@@ -24,6 +24,11 @@
     4.  object-fit:
         -cover: 찌그러진 사진을 예쁘게 펴줌, 단점: 위치조정은 안됨
 
+    5. 태그+ 태그 : 태그옆에 태그를 선택할수 있음
+    6. input에서 :checked라고 하는 상태를 선택할수 있음
+    7.transition: 애니메이션 효과를 적용할수 있음
+        -예시 transition: all ,5s(속도)
+    8.labal,span:display 속성을 block으로 줘야만 눈으로 확인할수있음
 
 # JS
 
@@ -36,3 +41,17 @@
 
     3.document.createEelement:태그를 달아줌
         -예시:const button = document.createElement('button')
+
+
+    4.잡아온태그 .onclick= 화살표 함수를 사용해서 클릭하는 이벤트를  설정할수 있음
+
+    5.setInterval: 설정한 시간 단위마다 계속해서 반복적으로 실행되는 코드를 짤 수있음
+     -예시
+     const intervalId= setInterval(
+        ()=>{
+
+        },3000 //밀리세컨 단위 1000=1초
+     )
+     **새로고침 이외에 멈출 방법이 하나밖에 없음,  interbalId를 사용해서 꺼줘야함
+
+        -예시 :clearInterbal(interbalId)// 이거쓰면 멈춤
