@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상품을 선택하쇼</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1>제주 말고기</h1>
+    <form>
+      <label for="r">받는사람</label>
+      <input type="text" placeholder="예)이명박근혜" id="r" />
+
+      <label for="i">상품선택</label>
+      <select id="i">
+        <option>상품선택</option>
+        <option value="189000">小 18900</option>
+        <option value="170000">大690000</option>
+      </select>
+      <label for="a">주소</label>
+      <input type="text" placeholder="예)청화대" id="a" />
+
+      <!-- label+input-->
+      <div>
+        <input type="submit" value="주문" />
+        <input type="button" value="취소" />
+        <input type="reset" value="초기화" />
+      </div>
+    </form>
+    <script src="form.js"></script>
+  </body>
+</html>
