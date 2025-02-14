@@ -1,28 +1,14 @@
-#HTML
+1.  a tag 사용법: 네비게이션
+    -href 속성에 값을 부여함
+    1.url: 다른 웹사이트로 이동함 -주소값을 입력하면 되는데 http또는 https+:// 부터 다 적어줘야 작동함
 
-1.HTML이란?: -웹페이지 만드는언어 -웹 페이지 뼈대
+    2.#id:해당id와 동일한 id를 가진 태그로 이동함(현재페이지내)
 
-#css:Cascading Style Sheet
-CSS란? -웹꾸미기
+          -이동시킬 태그에 id값을 넣고
+          -a 태그 href안에 # + id 와 동일한 값을 넣으면 연결완료
+          -연결된 태그 누를때마다 주소창에 주소값 끝에 해당 아이디가 붙음
 
-## in-line style
+    3.파일명: 예)index.html 해당 파일로 이동 (페이지전환)
+    -href 안에 파일명 적어주면된다
 
-        <div style="display:flex;">
-
-## style tag
-
-    <head>
-       <style>
-       div{
-        display:flex;
-       }
-       </style>
-
-## 외부 스타일시트 연결
-
-        1.html>head안에 line 태그로 스타일시트연결
-        2.styleFile.css를 만들어서 스타일작성
-
-#js
-
-1.기능구형 (웹개발90)
+    4.파일 다운로드: 파일
